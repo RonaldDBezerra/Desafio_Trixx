@@ -46,6 +46,7 @@ export default StyleSheet.create({
   text: {
     marginBottom: 12,
     color: '#666666',
+    fontFamily: 'Poppins_400Regular'
   },
   inputArea: {
     width: 328,
@@ -87,7 +88,7 @@ export default StyleSheet.create({
     fontSize: 16,
     color: '#F8F8F8',
     lineHeight: 24,
-    fontWeight: '400',
+    fontFamily: 'Poppins_400Regular'
   },
   erros: {
     color: 'red',
@@ -132,6 +133,7 @@ export default StyleSheet.create({
     fontSize: 22,
     fontWeight: '600',
     color: '#222D5B',
+    fontFamily: 'Poppins_600SemiBold'
   },
 
   //////////// Localization //////////
@@ -155,6 +157,7 @@ export default StyleSheet.create({
     color: '#F8F8F8',
     fontWeight: '500',
     fontSize: 16,
+    fontFamily: 'Poppins_400Regular'
   },
 
   /////////// Services ///////
@@ -192,5 +195,6 @@ export default StyleSheet.create({
   exploreTitle: {
     color: '#222D5B',
     alignSelf: 'center',
+    fontFamily: 'Poppins_500Medium'
   },
 });
