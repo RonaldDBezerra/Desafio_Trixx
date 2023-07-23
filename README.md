@@ -1,4 +1,4 @@
-# Lista de tarefas mobile
+# Desafio Trixx
 Esse projeto foi criado para o desafio técnico na empresa Trixx!
 ## Stacks utilizadas no desenvolvimento
 Pricipais stacks utilizadas: React Native, Expo, TypeScript, StyledSheet
