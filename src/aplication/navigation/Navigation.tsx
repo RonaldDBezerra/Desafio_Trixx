@@ -7,7 +7,6 @@ import {
   Poppins_600SemiBold,
   Poppins_500Medium,
 } from '@expo-google-fonts/poppins';
-import AppLoading from 'expo-app-loading'
 
 const { Screen, Navigator } = createStackNavigator();
 
@@ -19,7 +18,7 @@ export function Navigation() {
   });
 
   if (!fontLoaded) {
-    return <AppLoading />
+    return null
   }
 
   return (
